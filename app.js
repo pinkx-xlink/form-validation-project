@@ -14,6 +14,13 @@ const password = document.getElementById("password");
 
 const confirmPassword = document.getElementById("confirm-password");
 
+confirmPassword.addEventListener("input", (event) => {
+    if (confirmPassword === password) {
+        confirmPassword.setCustomValidity("You're all good!");
+    } else {
+        confirmPassword.setCustomValidity("try again ):");
+    }
+});
 
 
 window.onload = () => {
