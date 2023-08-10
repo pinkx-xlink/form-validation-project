@@ -15,7 +15,7 @@ let check = function() {
         document.getElementById('message').innerHTML = 'matching';
     } else {
         document.getElementById('message').style.color = 'red';
-        document.getElementById('message').innerHTML = 'not matching';
+        document.getElementById('message').innerHTML = "passwords don't match, babe";
     }
 }
 
