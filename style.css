@@ -2,6 +2,6 @@ input {
     border: 3px solid gray;
 }
 
-input:invalid:focus {
+input:invalid {
     border: 2px solid darkred;
 }
