@@ -11,6 +11,8 @@ form {
     justify-content: space-around;
     padding: 15px;
     border-radius: 12px;
+    border: 1px solid blue;
+    box-shadow: 0 0 7px 5px purple;
 }
 
 input {     
