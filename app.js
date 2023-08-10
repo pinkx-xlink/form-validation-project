@@ -12,7 +12,7 @@ let check = function() {
     if(document.getElementById('password').value ==
         document.getElementById('confirm-password').value) {
         document.getElementById('message').style.color = 'green';
-        document.getElementById('message').innerHTML = 'matching';
+        document.getElementById('message').innerHTML = 'passwords match, babe! :)';
     } else {
         document.getElementById('message').style.color = 'red';
         document.getElementById('message').innerHTML = "passwords don't match, babe";
