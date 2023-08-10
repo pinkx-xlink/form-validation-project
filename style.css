@@ -1,0 +1,7 @@
+input {
+    border: 3px solid gray;
+}
+
+input:invalid:focus {
+    border: 2px solid darkred;
+}
