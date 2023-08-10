@@ -8,6 +8,14 @@ email.addEventListener("input", (event) => {
     }
 });
 
+const password = document.getElementById("password");
+
+
+
+const confirmPassword = document.getElementById("confirm-password");
+
+
+
 window.onload = () => {
     document.getElementById("email").oninput = checkEmail;
 }
