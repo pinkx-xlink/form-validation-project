@@ -41,9 +41,11 @@ display: flex;
 padding:5px;
 gap:10px;
 }
-#message {
-    background-color: black;
-}
+/* #message {
+    width: 100%;
+    border:gray;
+    border-radius: 12px;
+} */
 
 button {
     border-style: none;
