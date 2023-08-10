@@ -10,15 +10,13 @@ email.addEventListener("input", (event) => {
 
 const password = document.getElementById("password");
 
-
-
 const confirmPassword = document.getElementById("confirm-password");
 
 confirmPassword.addEventListener("input", (event) => {
     if (confirmPassword === password) {
-        confirmPassword.setCustomValidity("You're all good!");
+        confirmPassword.setCustomValidity("");
     } else {
-        confirmPassword.setCustomValidity("try again ):");
+        confirmPassword.setCustomValidity("try again")
     }
 });
 
