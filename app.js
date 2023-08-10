@@ -7,3 +7,7 @@ email.addEventListener("input", (event) => {
         email.setCustomValidity("")
     }
 });
+
+window.onload = () => {
+    document.getElementById("email").oninput = checkEmail;
+}
