@@ -35,3 +35,10 @@ input[type="number"],
 input[type="email"] {
     width:100%;
 }
+
+button {
+    border-style: none;
+    background-color: rgb(83, 83, 124);
+    
+}
+
