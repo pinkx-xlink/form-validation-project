@@ -8,9 +8,9 @@ email.addEventListener("input", (event) => {
     }
 });
 
-// const password = document.getElementById("password");
+const password = document.getElementById("password");
 
-// const confirmPassword = document.getElementById("confirm-password");
+const confirmPassword = document.getElementById("confirmPassword");
 
 function validatePassword(form) {
     password = form.password.value;
