@@ -12,13 +12,13 @@ const password = document.getElementById("password");
 
 const confirmPassword = document.getElementById("confirm-password");
 
-confirmPassword.addEventListener("input", (event) => {
-    if (confirmPassword === password) {
-        confirmPassword.setCustomValidity("");
-    } else {
-        confirmPassword.setCustomValidity("try again")
-    }
-});
+// confirmPassword.addEventListener("input", (event) => {
+//     if (confirmPassword === password) {
+//         confirmPassword.setCustomValidity("");
+//     } else {
+//         confirmPassword.setCustomValidity("try again")
+//     }
+// });
 
 
 window.onload = () => {
