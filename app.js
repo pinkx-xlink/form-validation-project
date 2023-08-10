@@ -13,7 +13,8 @@ email.addEventListener("input", (event) => {
 // const confirmPassword = document.getElementById("confirm-password");
 
 function validatePassword(form) {
-    password
+    password = form.password.value;
+    
 }
 
 // confirmPassword.addEventListener("input", (event) => {
