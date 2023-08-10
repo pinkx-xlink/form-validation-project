@@ -36,6 +36,15 @@ input[type="email"] {
     width:100%;
 }
 
+.passwords {
+display: flex;
+padding:5px;
+gap:10px;
+}
+#message {
+    background-color: black;
+}
+
 button {
     border-style: none;
     background-color: rgb(118, 118, 173);
