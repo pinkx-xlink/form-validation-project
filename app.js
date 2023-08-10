@@ -14,7 +14,16 @@ email.addEventListener("input", (event) => {
 
 function validatePassword(form) {
     password = form.password.value;
-    
+    confirmPassword = form.confirmPassword.value;
+
+    if (password == '')
+        alert ("Please enter ur password babe");
+    else if (confirmPassword == '')
+        alert (Please confirm password babe!);
+    else if(password != confirmPassword) {
+        alert ("passwords don't match, babe...")
+        return false;
+    }
 }
 
 // confirmPassword.addEventListener("input", (event) => {
