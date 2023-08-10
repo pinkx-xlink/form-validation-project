@@ -17,12 +17,15 @@ function validatePassword(form) {
     confirmPassword = form.confirmPassword.value;
 
     if (password == '')
-        alert ("Please enter ur password babe");
+        alert("Please enter ur password babe");
     else if (confirmPassword == '')
-        alert (Please confirm password babe!);
+        alert(Please confirm password babe!);
     else if(password != confirmPassword) {
-        alert ("passwords don't match, babe...")
+        alert("passwords don't match, babe...")
         return false;
+    } else {
+        alert("Passwords match - welcome!")
+        return true;
     }
 }
 
@@ -37,4 +40,6 @@ function validatePassword(form) {
 
 window.onload = () => {
     document.getElementById("email").oninput = checkEmail;
+    document.getElementById("password").oninput = validatePassword;
+    document.getElementById("confirmPassword").oninput = validatePassword;
 }
