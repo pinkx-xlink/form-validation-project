@@ -38,7 +38,12 @@ input[type="email"] {
 
 button {
     border-style: none;
-    background-color: rgb(83, 83, 124);
-    
+    background-color: rgb(118, 118, 173);
+    height: 50px;
+    width: 75px;
+    border-radius: 12px;
 }
 
+button:hover {
+    background-color: rgb(80, 44, 146);
+}
