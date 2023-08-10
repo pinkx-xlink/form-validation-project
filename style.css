@@ -47,12 +47,17 @@ gap:10px;
     border-radius: 12px;
 } */
 
+#r1,
+#r2 {
+    cursor: pointer;
+}
 button {
     border-style: none;
     background-color: rgb(118, 118, 173);
     height: 50px;
     width: 75px;
     border-radius: 12px;
+    cursor:pointer;
 }
 
 button:hover {
