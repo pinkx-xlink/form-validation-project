@@ -7,7 +7,6 @@ form {
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
     width: 75%;
-    
 }
 
 .container {
@@ -23,28 +22,19 @@ form {
 }
 
 input {     
-    border: 3px solid gray;
+    border: 2px solid rgb(170, 167, 167);
     border-radius: 10px;
+    width: 200px;
+    height: 20px;
 }
 
 input:invalid {
-    border: 2px solid darkred;
+    border: 2px solid rgb(211, 107, 107);
 }
 input:focus:invalid {
     box-shadow: 0 0 5px 1px rgb(248, 116, 215);
 }
 
-input[type="text"],
-input[type="number"],
-input[type="email"] {
-    width:100%;
-}
-
-.passwords {
-display: flex;
-padding:5px;
-gap:10px;
-}
 /* #message {
     width: 100%;
     border:gray;
